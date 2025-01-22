@@ -1,3 +1,6 @@
+import 'package:ats_resume_builder/models/education.dart';
+import 'package:ats_resume_builder/models/project.dart';
+import 'package:ats_resume_builder/models/skills.dart';
 import 'package:ats_resume_builder/models/work_experience_model.dart';
 
 class Resume {
@@ -26,11 +29,5 @@ class Resume {
       required this.projects,
       required this.technicalSkills});
 }
-
-class Project {}
-
-class Skills {}
-
-class Education {}
 
 class Certifications {}
