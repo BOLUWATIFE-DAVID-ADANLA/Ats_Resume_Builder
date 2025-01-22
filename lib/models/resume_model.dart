@@ -32,3 +32,5 @@ class Project {}
 class Skills {}
 
 class Education {}
+
+class Certifications {}
