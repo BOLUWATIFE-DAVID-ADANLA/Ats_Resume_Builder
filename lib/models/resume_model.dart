@@ -1,3 +1,5 @@
+import 'package:ats_resume_builder/models/work_experience_model.dart';
+
 class Resume {
   final String name;
   final String email;
@@ -24,8 +26,6 @@ class Resume {
       required this.projects,
       required this.technicalSkills});
 }
-
-class WorkExperience {}
 
 class Project {}
 
