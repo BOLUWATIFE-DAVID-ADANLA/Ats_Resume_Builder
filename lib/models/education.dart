@@ -1,7 +1,7 @@
 class Education {
   final String educationLevel;
   final String school;
-  final String cgpa;
+  final String? cgpa;
   final String? formattedDate;
 
   Education(

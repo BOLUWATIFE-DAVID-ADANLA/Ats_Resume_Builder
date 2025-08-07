@@ -15,12 +15,14 @@ class Resume {
   List<Project> projects;
   List<Skills> technicalSkills;
   List<Education> education;
+  List<Certifications>? certifications;
 
   Resume(
       {required this.address,
       required this.education,
       required this.email,
       required this.experiences,
+      this.certifications,
       this.github,
       this.linkedin,
       required this.name,
@@ -30,4 +32,7 @@ class Resume {
       required this.technicalSkills});
 }
 
-class Certifications {}
+class Certifications {
+  List<String> certDescription;
+  Certifications(this.certDescription);
+}
