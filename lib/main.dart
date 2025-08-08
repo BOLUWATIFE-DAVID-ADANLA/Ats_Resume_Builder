@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/cv_creation_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: LandingPage(),
+      home: const CvCreationPage(),
     );
   }
 }
